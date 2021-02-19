@@ -1,0 +1,146 @@
+/* 多页面共享的样式 */
+
+@import "//at.alicdn.com/t/font_2334234_8fqq50eljz4.css";
+body {
+    font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    line-height: 2;
+}
+
+/* 清除浮动的高度坍塌 */
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 左浮动和右浮动 */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* 容器 */
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* 容器结束 */
+
+/* 超链接样式 */
+
+a {
+    color: #a0a0a0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #37a;
+}
+
+/* 超链接样式结束 */
+
+/* 页头 */
+
+.header {
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.header .container {
+    background: #fff;
+    opacity: 0.7;
+}
+
+.header .logo a {
+    display: block;
+    text-indent: -99999px;
+    padding-top: 15px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    background: url(../image/Plogo.png) no-repeat left top/100%;
+}
+
+.header .menu {
+    padding-top: 30px;
+}
+
+.header .menu a {
+    width: 40px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+}
+
+/* 页头结束 */
+
+/* 返回顶部 */
+
+.backToTop {
+    position: fixed;
+    width: 40px;
+    height: 60px;
+    right: 40px;
+    bottom: 40px;
+}
+
+.backToTop .iconfont {
+    text-align: center;
+    color: #757574;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.backToTop .iconfont:hover {
+    color: #000;
+}
+
+/* 返回顶部结束 */
+
+/* 页脚 */
+
+.footer {
+    margin: 30px auto;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+
+.footer .container{
+    padding-top: 10px;
+    border-top: 1px solid #999;
+}
+
+.footer p {
+    padding-bottom: 20px;
+}
+
+.footer ul {
+    margin: 0 auto;
+    width: 730px;
+}
+
+.footer li span {
+    font-weight: bold;
+    color: #4c4948;
+}
+
+.footer li {
+    margin-right: 75px;
+}
+
+/* 页脚结束 */

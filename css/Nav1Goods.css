@@ -1,0 +1,80 @@
+@import "reset.css";
+@import "commonStyle.css";
+/* 主区域 */
+
+.Nav1Container {
+    margin-top: 90px;
+    padding-bottom: 1630px;
+}
+
+.Nav1Container .Nav1-title h2 {
+    font-size: 26px;
+    color: #000;
+}
+
+.Nav1Container .Nav1-main {
+    margin-bottom: 20px;
+}
+
+.Nav1Container .Nav1-main .Nav1-nav {
+    background: #cacaca;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.Nav1Container .Nav1-main li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Nav1Container .Nav1-main li a {
+    font-size: 15px;
+    color: #000;
+}
+
+.Nav1Container .Nav1-main li a:hover {
+    color: #37a;
+}
+
+.Nav1-desc a {
+    margin-right: 50px;
+}
+
+.Nav1-desc a img {
+    width: 265px;
+    height: 165px;
+}
+
+.Nav1-desc {
+    padding: 30px 60px;
+}
+
+.Nav1-desc .desc {
+    width: 540px;
+}
+
+.Nav1-desc .desc h3 a {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Nav1-desc .desc a {
+    display: block;
+    word-break: break-all;
+    overflow: hidden;
+    color: #777777;
+    font-size: 13px;
+}
+
+.Nav1-desc .desc a:hover {
+    color: #37a;
+}
+
+.Nav1-desc .desc a img {
+    margin-top: 30px;
+    width: 530px;
+    height: 332px;
+}
+
+/* 主区域结束 */

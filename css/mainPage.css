@@ -1,0 +1,59 @@
+@import "reset.css";
+@import "commonStyle.css";
+
+/* 首页通用样式 */
+
+.section {
+    padding: 20px 0;
+}
+
+.section:nth-child(even) {
+    background: #f7f7f7;
+}
+
+.section .section-title {
+    margin: 10px 0;
+}
+
+.section .section-title a {
+    font-weight: bold;
+    color: #072;
+    font-size: 25px;
+}
+
+.section .section-title a:hover {
+    color: #37a;
+}
+
+.aside-left {
+    float: left;
+    width: 420px;
+    word-wrap: break-word;
+}
+
+.aside-right {
+    float: right;
+    width: 540px;
+    margin-left: 20px;
+}
+
+/* 首页通用样式结束 */
+
+/* 主区域 */
+
+.mainContainer {
+    margin-top: 100px;
+}
+
+.mainContainer .introduce {
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #fff;
+    background: #cacaca;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* 主区域结束 */
